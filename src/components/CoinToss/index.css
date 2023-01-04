@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  border: 1px solid #f9d423;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.coin-toss-game {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .coin-toss-game {
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 14px;
+    text-align: center;
+  }
+}
+
+.game-heading {
+  color: #a35200;
+  font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .game-heading {
+    color: #a35200;
+    font-size: 42px;
+  }
+}
+
+.game-sub-heading {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .game-sub-heading {
+    color: #334155;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px;
+  }
+}
+
+.toss-image {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .toss-image {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.button {
+  height: 36px;
+  width: 102px;
+  margin-top: 12px;
+  background-color: #f9d423;
+  color: #a35200;
+  border: 0px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .count-container {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.count {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 600;
+}
